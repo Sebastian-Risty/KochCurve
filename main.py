@@ -12,6 +12,7 @@ defaultSpeed = 5
 curIterations = 0
 segments = [(sc.window_width(), 0, (0, 0, 0))]
 
+# draw initial line
 t.speed(defaultSpeed)
 t.penup()
 t.setposition(-sc.window_width() / 2, 0)
